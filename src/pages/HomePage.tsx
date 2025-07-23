@@ -9,7 +9,7 @@ import {
   Timestamp,
 } from "firebase/firestore";
 import { db } from "../firebase";
-import { DiaryEntry } from "../types/data"; // 타입 정의 import
+import type { DiaryEntry } from "../types/data"; // 타입 정의 import
 import DiaryList from "../components/DiaryList"; // DiaryList 컴포넌트도 props 타입을 지정해야 합니다.
 
 const HomePage: React.FC = () => {
